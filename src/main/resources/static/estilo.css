@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Define variáveis para as cores*/
+:root {
+    --cor-primaria: rgb(63, 62, 62);
+    --cor-secundaria: rgb(0, 0, 0);
+    --cor-do-fundo: rgb(226, 222, 222);
+    --branco: white;
+  }
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--cor-do-fundo);
+}
+
+h1 {
+    font-family: 'DynaPuff', cursive;
+    color: var(--cor-primaria);
+    font-size: 2rem;
+}
+
+header h1 {
+    padding-left: 30px;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    text-align:left;
+    align-items:flex-start;
+}
+
+.lista-de-dias {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.lista-de-dias > li {
+    border: solid 2px  var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 5px;
+    background-color: var(--branco);
+}
+
+.lista-de-lembretes {
+    display:flex;
+    flex-direction: column;
+}
+
+.lista-de-lembretes button {
+    background-color: var(--cor-secundaria);
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    font-weight: bolder;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data {
+    font-size:25px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.lista-de-lembretes li{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--cor-secundaria);
+    display: flex;
+    gap: 5px;
+}
+
+main, section, header {
+    padding: 0 30px;
+    width: 800px;
+    margin: auto auto;
+}
+
+.secao-lembretes {
+    margin-top: 40px;
+}
+
+#formulario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#formulario input{
+    height: 40px;
+    font-size: 18px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid  var(--cor-secundaria);
+    text-align: center;
+}
+
+#formulario label {
+    font-size: 18px;
+}
+
+#botaoCriar {
+    width: 20px;
+    cursor: pointer;
+    background: var(--cor-secundaria);
+    color: var(--branco);
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+#botaoCriar:hover {
+    opacity: 0.7;
+}
+

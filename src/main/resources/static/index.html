@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Lembrete</title>
+</head>
+<body>
+    <header>
+        <h1>Novo Lembrete</h1>
+    </header>
+    <main>
+        <section>
+            <form method="post" action="/lembretes" id="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome para o lembrete"required>
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+                <input id="botaoCriar"type="submit" value="Criar Lembrete">
+            </form>    
+        </section>
+
+        <section class="secao-lembretes">
+            <h1 class="titulo"> Lembretes</h1>
+            <ul class="lista-de-dias"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
