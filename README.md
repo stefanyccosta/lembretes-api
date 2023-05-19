@@ -46,3 +46,5 @@ recomenda-se a utilização do git-bash (ferramenta instalada em conjunto com o 
 
 - Implementar testes unitários no projeto usando [JUnit](https://junit.org/junit5/);
 - Deployar a aplicação em algum servidor em nuvem.
+- Trocar o banco de dados para um que persista os dados de forma permanente.
+- Adicionar funcionalidades como cadastro de usuário, login, etc.
