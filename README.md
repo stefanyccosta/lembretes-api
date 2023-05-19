@@ -17,7 +17,7 @@ Este projeto foi desenvolvido utilizado as seguintes tecnologias:
 
 ## Executando o Projeto
 
-Seguindo os passos a seguir, você obterá uma cópia deste projeto em sua máquina e poderá executá-la em ambiente local.
+Seguindo os passos a seguir, você obterá uma cópia deste projeto em sua máquina e poderá executá-lo em ambiente local.
 ### Requisitos de ambiente
 
 Para executar este projeto, você deve:
